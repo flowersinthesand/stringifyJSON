@@ -1,7 +1,7 @@
 jQuery.stringifyJSON
 ====================
 
-#### The jQuery.parseJSON's best friend
+### The jQuery.parseJSON's best friend
 
 Converts a value to JSON string.
 
