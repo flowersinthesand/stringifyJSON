@@ -33,7 +33,7 @@ function teardown() {
 	}
 }
 
-module("jQuery.stringifyJSON", {setup: setup, teardown: teardown});
+module("stringifyJSON", {setup: setup, teardown: teardown});
 
 $.each({
 	chars: {
@@ -87,7 +87,7 @@ $.each({
 }, function(testName, data) {
 	test(testName, function() {
 		$.each(data.value, function(i, val) {
-			deepEqual($.stringifyJSON(val), data.answer[i]);
+			deepEqual(stringifyJSON(val), data.answer[i]);
 		});
 	});
 });
